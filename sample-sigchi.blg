@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sample-sigchi.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sample-base.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--page numbers missing in both pages and numpages fields in QM9
+Warning--page numbers missing in both pages and numpages fields in Cora-Citeseer
+You've used 3 entries,
+            5719 wiz_defined-function locations,
+            1466 strings with 17138 characters,
+and the built_in function-call counts, 4212 in all, are:
+= -- 579
+> -- 233
+< -- 0
++ -- 81
+- -- 76
+* -- 356
+:= -- 462
+add.period$ -- 15
+call.type$ -- 3
+change.case$ -- 31
+chr.to.int$ -- 3
+cite$ -- 5
+duplicate$ -- 280
+empty$ -- 201
+format.name$ -- 88
+if$ -- 1022
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 12
+newline$ -- 64
+num.names$ -- 24
+pop$ -- 114
+preamble$ -- 1
+purify$ -- 58
+quote$ -- 0
+skip$ -- 85
+stack$ -- 0
+substring$ -- 238
+swap$ -- 25
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
+warning$ -- 2
+while$ -- 15
+width$ -- 0
+write$ -- 88
+(There were 2 warnings)

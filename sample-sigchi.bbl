@@ -1,0 +1,83 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{3}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Hachmann, Olivares-Amaya, Atahan-Evrenk,
+  Amador-Bedolla, Sanchez-Carrera, Gold-Parker, Vogt, Brockway, and
+  Aspuru-Guzik}{Hachmann et~al\mbox{.}}{2011}]%
+        {HCEP}
+\bibfield{author}{\bibinfo{person}{J. Hachmann}, \bibinfo{person}{R.
+  Olivares-Amaya}, \bibinfo{person}{S. Atahan-Evrenk}, \bibinfo{person}{C.
+  Amador-Bedolla}, \bibinfo{person}{R.~S. Sanchez-Carrera}, \bibinfo{person}{A.
+  Gold-Parker}, \bibinfo{person}{L. Vogt}, \bibinfo{person}{A.~M. Brockway},
+  {and} \bibinfo{person}{A. Aspuru-Guzik}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{The Harvard Clean Energy Project: Large-Scale
+  Computational Screening and Design of Organic Photovoltaics on the World
+  Community Grid}.
+\newblock \bibinfo{journal}{\emph{J. Phys. Chem. Lett.}}  \bibinfo{volume}{2}
+  (\bibinfo{year}{2011}), \bibinfo{pages}{2241--2251}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ramakrishnan, Dral, Rupp, and von
+  Lilienfeld}{Ramakrishnan et~al\mbox{.}}{2014}]%
+        {QM9}
+\bibfield{author}{\bibinfo{person}{R. Ramakrishnan}, \bibinfo{person}{P.~O.
+  Dral}, \bibinfo{person}{M. Rupp}, {and} \bibinfo{person}{O.~A. von
+  Lilienfeld}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Quantum chemistry structures and properties of 134
+  kilo molecules}.
+\newblock \bibinfo{journal}{\emph{Sci. Data}} \bibinfo{volume}{1},
+  \bibinfo{number}{140022} (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sen, Namata, Bilgic, Getoor, Galligher, and
+  Eliassi-Rad}{Sen et~al\mbox{.}}{2008}]%
+        {Cora-Citeseer}
+\bibfield{author}{\bibinfo{person}{P. Sen}, \bibinfo{person}{G. Namata},
+  \bibinfo{person}{M. Bilgic}, \bibinfo{person}{L. Getoor}, \bibinfo{person}{B.
+  Galligher}, {and} \bibinfo{person}{T. Eliassi-Rad}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Collective Classification in Network Data}.
+\newblock \bibinfo{journal}{\emph{AI Magazine}} \bibinfo{volume}{29},
+  \bibinfo{number}{3} (\bibinfo{year}{2008}).
+\newblock
+
+
+\end{thebibliography}

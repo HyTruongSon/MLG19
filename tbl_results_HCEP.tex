@@ -1,0 +1,28 @@
+\begin{table}[t]
+\caption{\label{tbl:hcep} HCEP regression results}
+\centering
+\begin{tabular}{||l | c | c ||}
+	\hline
+	& Test MAE & Test RMSE \\
+	\hline\hline
+	Lasso & 0.867 & 1.437 \\
+	\hline
+	Ridge regression & 0.854 & 1.376 \\
+	\hline
+	Random forest & 1.004 & 1.799 \\
+	\hline
+	Gradient boosted trees & 0.704 & 1.005 \\
+	\hline
+	WL graph kernel & 0.805 & 1.096 \\
+	\hline
+	Neural graph fingerprints & 0.851 & 1.177 \\
+	\hline
+	PSCN & 0.718 & 0.973 \\
+	\hline
+	CCN 1D & \textbf{0.216} & \textbf{0.291} \\
+	\hline
+	CCN 2D & \textbf{0.340} & \textbf{0.449} \\
+	\hline
+\end{tabular}
+\end{table}
+

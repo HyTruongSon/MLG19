@@ -1,0 +1,45 @@
+\tikzset{
+    vcircle/.style={
+        circle, draw=black, minimum size=0.5em, inner sep=0pt, fill=gray
+    },
+    tensorfill/.style={
+        fill=red!60, draw=black, text=black
+    }
+}
+
+\begin{figure}[t]
+\begin{center}
+\begin{tikzpicture}
+
+\node[vcircle, label={below: \tiny $e_1$}] (v1) at (-1.75, 0.75) {};
+\node[vcircle, label={below: \tiny $e_2$}] (v2) at (-1.75, -0.75) {};
+\node[vcircle, label={below: \tiny $e_3$}] (v3) at (-0.5, 0) {};
+\node[vcircle, label={below: \tiny $e_4$}] (v4) at (0.5, 0) {};
+\node[vcircle, label={below: \tiny $e_5$}] (v5) at (1.75, 0.75) {};
+\node[vcircle, label={below: \tiny $e_6$}] (v6) at (1.75, -0.75) {};
+
+\draw (v1) -- (v3) node [pos=0.5, label=above: {\tiny \color{blue}$(1)$}] {}
+      (v2) -- (v3) node[pos=0.5, label=below:  {\tiny \color{blue}$(2)$}]{}
+      (v3) -- (v4) node[pos=0.5, label=above:  {\tiny \color{blue}$(3)$}]{}
+      (v5) -- (v4) node[pos=0.5, label=above:  {\tiny \color{blue}$(4)$}]{}
+      (v6) -- (v4) node[pos=0.5, label=below:  {\tiny \color{blue}$(5)$}]{};
+
+% \node [circle, label={}, opacity=0] (c) at ($(v4) + (0:5)$)  {};
+\node[vcircle, label={below: {\tiny \color{blue}$(3)$}}] (p3) at ($(v4) + (0: 4)$) {};
+\node[vcircle, label={above: {\tiny \color{blue}$(4)$}}] (p4) at ($(p3) + (30: 1)$) {};
+\node[vcircle, label={above: {\tiny \color{blue}$(1)$}}] (p1) at ($(p3) + (150: 1)$) {};
+\node[vcircle, label={below: {\tiny \color{blue}$(2)$}}] (p2) at ($(p3) + (-150: 1)$) {};
+\node[vcircle, label={below: {\tiny \color{blue}$(5)$}}] (p5) at ($(p3) + (-30: 1)$) {};
+
+\draw (p1) -- (p3)
+    (p2) -- (p1)
+    (p2) -- (p3)
+    (p4) -- (p3)
+    (p5) -- (p4)
+    (p5) -- (p3);
+
+
+\end{tikzpicture}
+\end{center}
+\caption{\label{fig:linegraph} Molecular graph of C$_2$H$_4$ (left) and its corresponding line graph (right).}
+\end{figure}
